@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap");
+
+* {
+  margin: 3px;
+  padding: 0;
+}
+
+body {
+  background-image: url(/image/8.jpg);
+  background-size: cover;
+}
+.logo {
+  background: transparent;
+}
+.logo img {
+  width: 80px;
+  margin-top: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 4px solid #dd7230;
+  border-radius: 50px;
+}
+.loginpage {
+  background-color: rgba(0, 0, 0, 0.415);
+  margin: 10px;
+  border: 5px solid #d1d1d1cb;
+  border-radius: 15px;
+  width: 50%;
+  height: 100%;
+}
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e7e393;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.username,
+.password {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: #e7e393;
+  align-items: center;
+}
+
+.password p,
+.username p {
+  font-size: 18px;
+}
+.username :placeholder-shown {
+  text-align: center;
+}
+.password :placeholder-shown {
+  text-align: center;
+}
+.forgot-password {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.Login {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+  color: #f7ec52da;
+}
+.Login {
+
+}
+.lg,
+.su {
+  width: 100px;
+  padding: 5px;
+  color:rgb(0, 0, 0) ;
+  background-image: linear-gradient(#f7ec52da,#9b6340);
+  border-radius: 5px;
+  border: 2px solid #ae5d2b;
+}
+input:hover{
+  /* color:#e7e393; */
+  background-color:#ff0000 ;
+}
+.terms,
+.privacy,
+.para {
+  display: flex;
+  justify-content: center;
+  color: #e7e393;
+}
+#username {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ba6933;
+  border-radius: 8px;
+  float: left;
+  width: 60%;
+  color: #dd7230;
+  background: #fffcc7;
+}
+#password {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ba6933;
+  border-radius: 8px;
+  float: left;
+  width: 60%;
+  color: #dd7230;
+  background: #fffcc7;
+}
+.tncpp {
+  padding: 10px;
+  background-color: rgba(178, 173, 173, 0.462);
+}
+.wordart {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 50px;
+  color: #e7e393;
+  width: 50%;
+  align-self: center;
+  text-align: center;
+  text-shadow: 7px 7px 5px #dd7230;
+}
+.container {
+  display: flex;
+}

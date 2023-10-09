@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(/image/14.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  background-color: rgb(175, 171, 171);
+  background: transparent;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  background: transparent;
+}
+.logo img {
+  width: 80px;
+  margin: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 4px solid #dd7230;
+  border-radius: 50px;
+}
+.container ul {
+  margin-top: 40px;
+  width: 50%;
+  background: transparent;
+}
+.container ul li a{
+  color: #f4c95d;
+  text-decoration: none;
+}
+
+.container ul li {
+ 
+  width: 20%;
+  display: inline;
+  list-style: none;
+  margin: 20px;
+  background: transparent;
+  font-weight: 900;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn {
+  width: 55%;
+  display: inline-flex;
+  background: transparent;
+}
+
+.btn1 {
+  margin-left: 0px;
+  height: 35px;
+  margin-top: 30px;
+  color: #04030f;
+  background-image: linear-gradient(#e7e393, #f4c95d);
+  width: 20%;
+  cursor: pointer;
+  border-color: #dd7230;
+  border-radius: 10px;
+}
+.btn2 {
+  margin-left: 15px;
+  height: 35px;
+  margin-top: 30px;
+  color: #04030f;
+  background-image: linear-gradient(#e7e393, #f4c95d);
+  width: 20%;
+  cursor: pointer;
+  border-color: #dd7230;
+  border-radius: 10px;
+}
+
+.searchbar {
+  display: inline-flex;
+  width: 60%;
+  height: 30%;
+  margin-top: 27px;
+  margin-left: 14px;
+}
+
+form.searchbar input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ba6933;
+  float: left;
+  width: 60%;
+  color: #dd7230;
+  background: #fffcc7;
+}
+
+form.searchbar button {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  background: #ba6933;
+  color: white;
+  font-size: 17px;
+  border: 2px solid #ba6933;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.searchbar button:hover {
+  background: #854d27;
+}
+
+/* Clear floats */
+form.searchbar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.wordart {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 40px;
+  color: #e7e393;
+  width: 100%;
+  text-align: center;
+  text-shadow: 7px 7px 5px #dd7230;
+}
+.dish{
+  display: flex;
+  justify-content: center;
+}
+.look{
+  display: flex;
+  justify-content: center;
+}
+.dish2{
+  width: 23%;
+  margin: 10px;
+}
+.dishes,.look-main{
+  background-color: rgba(166, 90, 15, 0.2);
+}
+.dishes h2 a{
+  text-decoration: none;
+  color: #f4c95d;
+  cursor: pointer;
+}
+.dishes h2{
+  text-decoration: none;
+  
+  background-color: #787534;
+  text-align: center;
+}
+.look-main h2 a{
+  color: #f4c95d;
+  text-decoration: none;
+  cursor: pointer;
+}
+.look-main h2{
+  
+  background-color: #787534;
+  text-align: center;
+}
+.para1 {
+  width: 100%;
+  color: white;
+  display: inline-flex;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.para2 {
+  width: 100%;
+  color: white;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  font-size: 20px;
+  text-align: justify;
+}
+.img1 {
+  width: 30%;
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.para1 p {
+  padding: 30px;
+  width: 65%;
+  background-color: rgba(175, 171, 171, 40%);
+  border: 2px solid #dd7230;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.para2 p {
+  padding: 30px;
+  width: 65%;
+  background-color: rgba(175, 171, 171, 40%);
+  border: 2px solid #dd7230;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #f4c95d;
+}
